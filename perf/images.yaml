@@ -12,6 +12,8 @@ test-aliases:
     value: "dotnet-v1.0|go-v0.45|js-v3.x|rust-v0.56"
   - alias: "baselines"
     value: "https|quic-go|iperf|quinn|tquic|tokio-quiche|tokio-tquic|quiche"
+  - alias: "default_baselines"
+    value: "https|quic-go|iperf|quinn"
   - alias: "go"
     value: "go-v0.45"
   - alias: "rust"
