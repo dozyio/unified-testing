@@ -192,8 +192,8 @@ implementations:
     source:
       type: github
       repo: libp2p/py-libp2p
-      #commit: 22ea173ac0359a386275bdf6b846bc52a0082e91 
-      commit: e4cb3f8c0c758420f9bdd6a195529b22f14ab765 
+      #commit: 22ea173ac0359a386275bdf6b846bc52a0082e91
+      commit: e4cb3f8c0c758420f9bdd6a195529b22f14ab765
       dockerfile: interop/transport/Dockerfile
     transports: [tcp, ws, wss, quic-v1]
     secureChannels: [tls, noise]
@@ -204,7 +204,7 @@ implementations:
     source:
       type: github
       repo: dozyio/lua-libp2p
-      commit: d84be404653a0a91bb0bfd56fc699f498b6c197d
+      commit: 4155c6d59779bdb48de4579d7d97387312113487
       dockerfile: interop/transport/Dockerfile
       requiresSubmodules: true
     transports: [tcp]
